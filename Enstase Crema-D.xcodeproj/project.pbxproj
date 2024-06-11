@@ -11,12 +11,12 @@
 		9CFBF89127FC64E800822CA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFBF89027FC64E800822CA2 /* SceneDelegate.swift */; };
 		9CFBF89327FC64E800822CA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFBF89227FC64E800822CA2 /* ContentView.swift */; };
 		9CFBF89627FC64E800822CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFBF89427FC64E800822CA2 /* Main.storyboard */; };
-		9CFBF89827FC64EA00822CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFBF89727FC64EA00822CA2 /* Assets.xcassets */; };
 		9CFBF89B27FC64EA00822CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFBF89927FC64EA00822CA2 /* LaunchScreen.storyboard */; };
 		9CFBF8A327FC659E00822CA2 /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFBF8A227FC659E00822CA2 /* Microphone.swift */; };
 		9CFBF8A527FC66B700822CA2 /* SoundAnalizerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFBF8A427FC66B700822CA2 /* SoundAnalizerController.swift */; };
 		9CFBF8A727FC66E100822CA2 /* EmotionModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CFBF8A627FC66E100822CA2 /* EmotionModel.mlmodel */; };
 		9CFBF8AA27FCAB4F00822CA2 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFBF8A927FCAB4F00822CA2 /* CircleView.swift */; };
+		BA54966A2C18F8B2007A79EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFBF89727FC64EA00822CA2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CFBF89B27FC64EA00822CA2 /* LaunchScreen.storyboard in Resources */,
-				9CFBF89827FC64EA00822CA2 /* Assets.xcassets in Resources */,
+				BA54966A2C18F8B2007A79EA /* Assets.xcassets in Resources */,
 				9CFBF89627FC64E800822CA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +309,6 @@
 		9CFBF8A027FC64EA00822CA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -321,8 +320,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,16 +328,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.enstase.cremad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9CFBF8A127FC64EA00822CA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -351,8 +352,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,9 +360,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.enstase.cremad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
