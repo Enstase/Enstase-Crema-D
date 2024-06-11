@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CFBF88B27FC64E800822CA2 /* Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFBF88B27FC64E800822CA2 /* Enstase Crema-D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enstase Crema-D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFBF88E27FC64E800822CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFBF89027FC64E800822CA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9CFBF89227FC64E800822CA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		9CFBF88227FC64E800822CA2 = {
 			isa = PBXGroup;
 			children = (
-				9CFBF88D27FC64E800822CA2 /* Sound */,
+				9CFBF88D27FC64E800822CA2 /* Enstase Crema-D */,
 				9CFBF88C27FC64E800822CA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		9CFBF88C27FC64E800822CA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CFBF88B27FC64E800822CA2 /* Sound.app */,
+				9CFBF88B27FC64E800822CA2 /* Enstase Crema-D.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9CFBF88D27FC64E800822CA2 /* Sound */ = {
+		9CFBF88D27FC64E800822CA2 /* Enstase Crema-D */ = {
 			isa = PBXGroup;
 			children = (
 				9CFBF88E27FC64E800822CA2 /* AppDelegate.swift */,
@@ -76,7 +76,7 @@
 				9CFBF89927FC64EA00822CA2 /* LaunchScreen.storyboard */,
 				9CFBF89C27FC64EA00822CA2 /* Info.plist */,
 			);
-			path = Sound;
+			path = "Enstase Crema-D";
 			sourceTree = "<group>";
 		};
 		9CFBF8A827FC686C00822CA2 /* Model */ = {
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9CFBF88A27FC64E800822CA2 /* Sound */ = {
+		9CFBF88A27FC64E800822CA2 /* Enstase Crema-D */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CFBF89F27FC64EA00822CA2 /* Build configuration list for PBXNativeTarget "Sound" */;
+			buildConfigurationList = 9CFBF89F27FC64EA00822CA2 /* Build configuration list for PBXNativeTarget "Enstase Crema-D" */;
 			buildPhases = (
 				9CFBF88727FC64E800822CA2 /* Sources */,
 				9CFBF88827FC64E800822CA2 /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = Sound;
+			name = "Enstase Crema-D";
 			productName = Sound;
-			productReference = 9CFBF88B27FC64E800822CA2 /* Sound.app */;
+			productReference = 9CFBF88B27FC64E800822CA2 /* Enstase Crema-D.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9CFBF88627FC64E800822CA2 /* Build configuration list for PBXProject "Sound" */;
+			buildConfigurationList = 9CFBF88627FC64E800822CA2 /* Build configuration list for PBXProject "Enstase Crema-D" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CFBF88A27FC64E800822CA2 /* Sound */,
+				9CFBF88A27FC64E800822CA2 /* Enstase Crema-D */,
 			);
 		};
 /* End PBXProject section */
@@ -313,9 +313,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 46ZSVCU248;
+				DEVELOPMENT_TEAM = FGCV7QGVUK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sound/Info.plist;
+				INFOPLIST_FILE = "Enstase Crema-D/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Enstase Crema-D";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Let me use the microphone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -326,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = martinaesposito.com.Sound;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.enstase.cremad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,9 +343,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 46ZSVCU248;
+				DEVELOPMENT_TEAM = FGCV7QGVUK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sound/Info.plist;
+				INFOPLIST_FILE = "Enstase Crema-D/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Enstase Crema-D";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Let me use the microphone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -354,7 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = martinaesposito.com.Sound;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.enstase.cremad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -365,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CFBF88627FC64E800822CA2 /* Build configuration list for PBXProject "Sound" */ = {
+		9CFBF88627FC64E800822CA2 /* Build configuration list for PBXProject "Enstase Crema-D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CFBF89D27FC64EA00822CA2 /* Debug */,
@@ -374,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CFBF89F27FC64EA00822CA2 /* Build configuration list for PBXNativeTarget "Sound" */ = {
+		9CFBF89F27FC64EA00822CA2 /* Build configuration list for PBXNativeTarget "Enstase Crema-D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CFBF8A027FC64EA00822CA2 /* Debug */,

@@ -48,7 +48,7 @@ class SoundAnalyzerController: ObservableObject {
             return
         }
         
-        audioEngine.inputNode.installTap(onBus: 0, bufferSize: 8000, format: inputFormat) { buffer, time in
+        audioEngine.inputNode.installTap(onBus: 1, bufferSize: 8000, format: inputFormat) { buffer, time in
             // Dispatch the analize request in a Queue
             self.analysisQueue.async {
                 self.analyzer.analyze(buffer, atAudioFramePosition: time.sampleTime)
@@ -107,7 +107,7 @@ extension SoundAnalyzerController: EmotionClassifierDelegate {
                 
             }else {
                 
-                self.transcriberText = ("Parla più forte")
+                //self.transcriberText = ("Parla più forte")
             }
         }
     }
